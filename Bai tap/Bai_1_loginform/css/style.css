@@ -30,7 +30,7 @@ input:focus, input:active{
 #header h1{
 	display: inline-block;
 	width: 95%;
-	font-size: 22px;
+	font-size: 14px;
 	line-height: 63px;
 	cursor: pointer;
 }
