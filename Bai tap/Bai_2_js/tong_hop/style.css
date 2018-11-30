@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+}
+
+button:active, button:focus{
+	outline: none;
+}
+
+.container{
+	margin-bottom: 50px;
+}
+.container1 {
+	height: 300px;
+}
+#change{
+	width: 800px;
+	height: 200px;
+	background-color: #ff4b40;
+}
+
+#btn-click{
+	position: absolute;
+    top: 250px;
+    left: 340px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+    color: red;
+    cursor: pointer;
+}
+
+/*bai 2*/
+
+#change1{
+	background: #ff5722;
+	height: 50px;
+	width: 0px;
+	border-radius: 5px;
+}
+
+#number{
+	margin: 0 auto;
+	height: 20px;
+	width: 30px;
+	padding-top: 15px;
+}
+
+/*bai 3*/
+
+.main{
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+}
+#bg-color{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+}
+.center{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.center > label{
+	margin-bottom: 3px;
+}
+.center >input{
+	cursor: pointer;
+}
+
+/*bai 4
+*/
+#container2{
+	height: 50px;
+	width: 830px;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	background-color: #ccc;
+	border-radius: 5px;
+}
+
+#move-div{
+	height: 30px;
+	width: 30px;
+	background-color: #FF5722;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.center{
+	text-align: center;
+}
+
+#slider-ipt{
+	cursor: pointer;
+}
