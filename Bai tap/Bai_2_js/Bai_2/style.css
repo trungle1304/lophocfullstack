@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#change{
+	background: red;
+	height: 50px;
+	width: 0px;
+}
+
+#number{
+	margin: 0 auto;
+	height: 20px;
+	width: 30px;
+	padding-top: 15px;
+}
