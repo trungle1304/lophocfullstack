@@ -93,6 +93,7 @@ body{
 }
 #about #info ul li{
 	display: inline;
+	margin-right: 1%;
 }
 #about #info ul li a{
 	display: inline-block;
