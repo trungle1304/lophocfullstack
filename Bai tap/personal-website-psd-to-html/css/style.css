@@ -25,7 +25,7 @@ body{
 
 /*Navbar*/
 #navbar{
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.7);
 	height: 75px;
 	position: fixed;
 	width: 100%;
@@ -60,7 +60,7 @@ body{
 
 /*about*/
 #about{
-	padding: 150px 0px 0px 0px;
+	padding: 140px 0px 50px 0px;
 	background: #313144 url(../images/header-bg.jpg) no-repeat center center;
 	background-size: cover;
 	opacity: 0;
