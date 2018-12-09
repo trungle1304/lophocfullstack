@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*:active, *:focus{
+	outline: none;
+}
+body{
+	font-family: Roboto, san-serif;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul li{
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.section  div  h1{
+	text-align: center;
+	padding-bottom: 45px;
+	font-weight: 500;
+}
+.content-middle{
+	padding-left: 8%;
+	padding-right: 8%;
+}
+/*themes-top*/
+#themes-top{
+	background-color: #3a526a;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 40px;
+}
+#themes-top div ul li{
+	display: inline;
+}
+#themes-top div > ul > li > a{
+	color: white;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin: 10px 0;
+	font-size: 13px;
+}
+#themes-top div > ul > li:first-child > a{
+	border-right: 1px solid #ccc;
+}
+
+/*header*/
+#header{
+	background-color: #fff;
+	box-shadow: 0px 1px 2px #ccc;
+	position: fixed;
+	top: 40px;
+	left: 0;
+	height: 75px;
+	z-index: 1000;
+	width: 100%;
+
+}
+#header #logo{
+	width: 30%;
+	float: left;
+	line-height: 75px;
+	padding-left: 2%;
+}
+#header ul{
+	    width: calc(100% - 30% - 7%);
+	float: right;
+}
+#header ul li{
+	display: inline;
+}
+#header ul li a{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 15px 2%;
+	font-size: 20px;
+}
+#header ul li a:hover{
+	color: #00bcd4;
+}
+#header ul li:last-child{
+	    margin-left: 10%;
+}
+
+/*slider-show*/
+#slider-show{
+	width: 100%;
+	position: relative;
+}
+#slider-show a{
+	position: absolute;
+	top: 240px;
+	z-index: 100;
+	padding: 10px 15px;
+	border-radius: 50%;
+	color: white;
+	background-color: #ccc;
+}
+#slider-show a#slider-prev{
+	left: 10px;
+}
+#slider-show a#slider-next{
+	right: 10px;
+}
+#slider-show a:hover{
+	background-color: #00bcd4;
+}
+#slider-show ul li{
+	position: relative;
+	display: none;
+}
+#slider-show ul li:first-child{
+	display: block;
+}
+#slider-show ul li .slider-content{
+	position: absolute;
+	top: 170px;
+	left: 33%;
+	color: white;
+}
+#slider-show ul li .slider-content h1{
+	padding-bottom: 30px;
+	    font-size: 40px;
+}
+#slider-show ul li .slider-content p{
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 22px;
+}
+#slider-show ul li img{
+	height: 500px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*introduce*/
+#introduce div .multi-introduce{
+	display: inline-block;
+	width: calc((100% - 90px) / 4);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+	vertical-align: top;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	float: left;
+	line-height: 22px;
+	border-radius: 10px;
+
+}
+#introduce div h1{
+	font-weight: 500;
+}
+#introduce div > .multi-introduce:nth-child(5){
+	margin-right: 0px !important;
+}
+#introduce div .multi-introduce > img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 200px;
+}
+#introduce div .multi-introduce > div.content-introduce{
+	height: 175px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 10px 5% 0px 5%;
+}
+#introduce div .multi-introduce div.content-introduce > h1{
+	font-size: 22px;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#introduce div .multi-introduce div.content-introduce > h1 a:hover{
+	color: #049da5;
+}
+#introduce div .multi-introduce div.content-introduce p{
+	text-align: justify;
+	font-size: 15px;
+	overflow: hidden;
+}
+#introduce div .multi-introduce div.links-introduce {
+	margin-bottom: 20px;
+	margin-left: 5%;
+	text-align: center;
+}
+#introduce div .multi-introduce div.links-introduce span{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #04A5B8;
+	color: #fff;
+
+}
+#introduce div .multi-introduce div.links-introduce span:hover{
+	background-color: #01707d;
+}
+
+/*content*/
+#content{
+	/*background: #f3f3f3 url(../images/slider/table-coder.jpg) no-repeat center center ;*/
+	background-color: #f3f3f3;
+	/*position: relative;*/
+}
+/*#content .opacity-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 98;
+}*/
+#content > div > .content-middle{
+	z-index: 101;
+}
+#content div div h1{
+	font-weight: 500;
+}
+#content div div h2{
+	font-weight: 100;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*images*/
+#images{
+
+}
+#images div ul li{
+	width: calc((100% - 80px) / 5);
+	float: left;
+	margin-right: 20px;
+	height: 175px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 2px #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: transform 0.3s;
+}
+#images div ul li:nth-child(5n + 5){
+	margin-right: 0px;
+}
+#images div ul li img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+#images div ul li img:hover{
+transform: scale(1.2);
+}
+
+/*contact*/
+#contact{
+	padding:0 !important;
+	    margin-bottom: 60px;
+
+}
+#contact div #map-contact{
+	width: 50%;
+	float: left;
+}
+#contact div #map-contact iframe{
+	width: 100% !important;
+	height: 300px !important;
+}
+#contact div #info-contact{
+	width: 45%;
+	float: right;
+	padding-top: 30px;
+}
+#contact div #info-contact h1, h2, p{
+	text-align: left;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+#contact div #info-contact p i{
+	color: #f44336;
+}
+
+/*footer*/
+#footer{
+	background-color: #343a40;
+}
+#footer div .info-footer{
+	display: inline-block;
+	width: calc((100% - 6%) / 3);
+	vertical-align: top;
+	margin-right: 2.6%;
+	color: #fff;
+}
+#footer div .info-footer:nth-child(3){
+	margin-right: 0;
+}
+#footer div .info-footer h1{
+	text-align: left !important;
+	padding-bottom: 20px !important;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+#footer div .info-footer ul li{
+	padding-bottom: 10px;
+}
+#footer div .info-footer ul li a{
+	color: #fff;
+}
+#footer div .info-footer ul li.bg-facebook a i{
+	color: #4267b2;
+}
+#footer div .info-footer ul li.bg-instagram a i{
+	color: #c46bda;
+}
+#footer div .info-footer ul li.bg-danger a i{
+	color: #f44336;
+}
+#footer div .info-footer ul li a:hover{
+	color: #cac9c9;
+}
+
